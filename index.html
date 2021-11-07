@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title> Leaflet Prop Symbol Map </title>
+
+		<!--put your external stylesheet links here-->
+		<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   		crossorigin=""/> -->
+		<link rel="stylesheet" href="lib/leaflet.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="lib/L.Control.Pan.css"/>
+		<link rel="stylesheet" type="text/css" href="lib/Leaflet.NavBar.css"/>
+		<link rel="stylesheet" type="text/css" href="lib/leaflet-search.css"/>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"/>
+
+		<!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   		crossorigin=""></script> -->
+		
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+		<!-- <div id="bgimage" style="background-image: url(data/IMG_9584.jpg);"></div> -->
+		<div id="title">Virginia Population Shifts 2010-2020!<br> An Examination of Population Shifts in 38 Independent Cities located in the Commonwealth of Virginia. </div>
+		<div id="author"> Created by Richard Helsley for GEO 575 Lab 1.</div>
+		<div id="wrapper">
+			<div id ="map"></div>
+			<div id="panel"></div>
+			<div id="caption">Map of Population shifts in VA Cities. Data Collected from US Census and the Weldon Cooper Center for Public Service.<br>
+			While the data is present I have been unable to unlock the Javascript secret in order to make it work as assigned in the lab. </div>
+		</div>
+		<div id="Main_Content"><p>We have all heard how populations are shifting and it not only affects society, but also our environment itself. There is however more to the story.
+			The story changes when you look further at the data, while larger Urban Areas are growing in size and population density there are smaller Urban Areas, such as those
+			located in rural Virginia, in counties that already have a low population. Those cities are either remaining stagnant or in some cases shrinking. If you'll notice in 
+			the data the areas in more rural areas have a greatly reduced growth if any. There could be a multitude of reasons for this, and while those reasons are beyond the scope 
+			of this project I believe they would be of great interest to those examining this data.</p> <br>
+			<p>According to the US Census estiamtes approximately 40% of the current population exists in less than 5% of Urban Areas. This highlights that amoung other things clearly
+			not all Urban Areas are created equal. Granted the year 2020 and 2021 have been affected by the current Pandemic people have continued to move. Part of this move is easily
+			put forth due to economoic concerns. Specifically, larger cities and the surrounding areas have much greater opportunity economically speaking than that of say small cities and rural areas.
+			While small family farms are still the biggest part of agriculture, the value of their production efforts were barely over half of the that of large corporate farms. However, with
+			the Pandemic changing how and where Americans work may have an interesting effect of current migration trends within the US.</p> 
+		</div>
+
+		<div id=downloads> Citations/Sources<p></p> <a href="https://coopercenter.org/"> Weldon Cooper Center</a><p></p><a href="data/Copy of VA-Intercensal-Estimates_2010-2020_UVA-CooperCenter.xlsx" download> Virginia Population Dataset </a><p></p> 
+		<a href= "https://www.ers.usda.gov/amber-waves/2017/march/large-family-farms-continue-to-dominate-us-agricultural-production"> USDA Article 2017</a><p></p>
+		I would also like to cite the code present in GEO 575 that assisted me in this project, while also citing the code plugin sources I used. 
+		Copyright (c) 2012, Kartena AB
+		Copyright (c) 2012 sa3m (https://github.com/sa3m)
+		Copyright (c) 2013 Per Liedman
+		Copyright (c) 2014 David C.</div>
+		
+		
+
+			
+		
+		<!--put your initial page content here-->
+		
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+			
+		<!--put your external script links here-->
+		<script src="lib/leaflet.js"></script>
+		<script type="text/javascript" src="lib/L.Control.Pan.js"></script>
+		<script type="text/javascript" src="lib/Leaflet.NavBar.js"></script>
+		<script type="text/javascript" src="lib/leaflet-search.js"></script>
+		<script type="text/javascript" src="lib/leaflet-search-geocoder.js"></script>
+		<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+		<script src="js/jquery-3.6.0.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/geojson.js"></script>
+		
+	</body>
+	
+</html>
