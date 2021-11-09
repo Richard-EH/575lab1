@@ -6,8 +6,7 @@ $(document).ready(function(){
         //center: [38.0,-78.65],
         zoom: 2,
         minZoom: 7,
-        zoomControl: false,
-        map.dragging.disable()
+        zoomControl: false
     }).setView([38.0,-78.65],7);
     L.control.pan().addTo(map);
 
